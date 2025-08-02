@@ -1,1 +1,112 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simona's Profile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #0a0a0a;
+      font-family: 'Share Tech Mono', monospace;
+      color: #fff;
+      overflow-x: hidden;
+      animation: backgroundPulse 10s infinite ease-in-out;
+    }@keyframes backgroundPulse {
+  0%, 100% { background-color: #0a0a0a; }
+  50% { background-color: #1a001f; }
+}
+
+h1, h2 {
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 0 0 10px #cc00ff;
+}
+
+a {
+  color: #ff99ff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #550055;
+  border-radius: 12px;
+  background: rgba(20, 0, 30, 0.6);
+  box-shadow: 0 0 20px #9900ff;
+}
+
+.section {
+  margin: 40px 0;
+}
+
+.neon-border {
+  border: 2px solid #cc00ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #cc00ff;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  font-size: 1.2em;
+  display: inline-block;
+  color: #cc00ff;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: #ffffff;
+}
+
+.music-player {
+  background: #1f001f;
+  border: 2px solid #cc00ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: inset 0 0 15px #cc00ff;
+  text-align: center;
+}
+
+.quotes {
+  font-style: italic;
+  line-height: 1.6em;
+  color: #ffccff;
+}
+
+iframe {
+  width: 100%;
+  height: 352px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Simona</h1><div class="section neon-border">
+  <h2>About Me</h2>
+  <p>just a pixel soul drifting through data clouds.<br>lover of neon dreams, old web vibes, and music that aches beautifully.</p>
+</div>
+
+<div class="section music-player">
+  <h2>Now Playing 🎧</h2>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/user/31tahtdtz2474c44htfzrnjnfyla?utm_source=generator" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+</div>
+
+<div class="section neon-border">
+  <h2>Favorite Quotes</h2>
+  <div class="quotes">
+    <p>“We are the weirdos, mister.” – The Craft</p>
+    <p>
+
 
